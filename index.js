@@ -9,7 +9,7 @@ const bookRoutes = require("./src/books/book.route");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://booksonlinestore.netlify.app"],
     credentials: true,
   })
 );
